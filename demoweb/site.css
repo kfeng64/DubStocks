@@ -1,10 +1,14 @@
+@font-face { font-family: Nexa; src: url('Nexa Light.otf'); }
+ @font-face { font-family: Nexa; font-weight: bold; src: url('Nexa Bold.otf');}
+
 body {
 	text-align: center;
-    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-family: Nexa, sans-serif;
     font-size: 16px;
-    background-color: white; 
-    color: #000000;
+    background-color: white;
+    color: #00001a;
     padding: 3px;
+
 }
 
 #main {
@@ -15,10 +19,34 @@ body {
     border-radius: 0 0 5px 5px;
 }
 
+aside {
+	font-family: Nexa, sans-serif;
+    line-height:30px;
+    background-color:#eeeeee;
+    height:300px;
+    width:100px;
+    float:left;
+    padding:5px;
+}
+
+section {
+    width:650px;
+    float:left;
+    padding-left:230px;
+	padding-right:230px;
+}
+
+rightaside {
+	text-align:right;
+  font-size: 12px;
+    
+}
+
 h1 {
 	text-align: center;
-    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-    border-bottom: 3px solid #cc9900;
-    color: blue;
+    font-family: Nexa, sans-serif;
+    border-bottom: 3px solid #ff3a00;
+    background-color: #ff3a00;
+    color: #996600;
     font-size: 30px;
 }
