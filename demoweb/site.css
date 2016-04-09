@@ -1,9 +1,9 @@
 body {
 	text-align: center;
-    font-family: "Trebuchet MS", Verdana, sans-serif;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
     font-size: 16px;
     background-color: white; 
-    color: #00001a;
+    color: #000000;
     padding: 3px;
 }
 
@@ -17,8 +17,8 @@ body {
 
 h1 {
 	text-align: center;
-    font-family: Georgia, serif;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
     border-bottom: 3px solid #cc9900;
-    color: #996600;
+    color: blue;
     font-size: 30px;
 }
