@@ -1,23 +1,16 @@
-@font-face { font-family: Nexa; src: url('Nexa Light.otf'); } 
+@font-face { font-family: Nexa; src: url('Nexa Light.otf'); }
  @font-face { font-family: Nexa; font-weight: bold; src: url('Nexa Bold.otf');}
 
 body {
 	text-align: center;
     font-family: Nexa, sans-serif;
     font-size: 16px;
-    background-color: white; 
+    background-color: white;
     color: #00001a;
     padding: 3px;
 
 }
 
-#main {
-    padding: 5px;
-    padding-left:  15px;
-    padding-right: 15px;
-    background-color: #ffffff;
-    border-radius: 0 0 5px 5px;
-}
 
 aside {
 	font-family: Nexa, sans-serif;
@@ -26,26 +19,26 @@ aside {
     height:300px;
     width:100px;
     float:left;
-    padding:5px; 
+    padding:5px;
 }
 
 section {
-    width:650px;
-    float:left;
-    padding-left:230px; 
-	padding-right:230px;
+  float: center;
+    width:65%;
+    /*float:left;*/
+    /*padding-left:230px;
+	padding-right:230px;*/
 }
 
-footer {
-	text-align:center;
-    position:fixed;
-    bottom:0;
+rightaside {
+	text-align:right;
+  font-size: 12px;
+
 }
-                 
+
 h1 {
 	text-align: center;
     font-family: Nexa, sans-serif;
-    border-bottom: 3px solid #ff3a00;
     background-color: #ff3a00;
     color: #996600;
     font-size: 30px;
